@@ -4,7 +4,8 @@
 	import javax.swing.JOptionPane;
 	import java.awt.Color;
 	import org.teachingextensions.logo.Colors;
-	import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.PenColors;
+import org.teachingextensions.logo.Tortoise;
 
 	public class Tortoise_Color_Chooser {
 		public static void main(String[] args) {
@@ -23,7 +24,7 @@ else if(name.equals("green")){
 }
 	//5. if the user doesn’t enter anything, choose a random color
 else{ 
-	Tortoise.setPenColor(Color.blue);
+	Tortoise.setPenColor(PenColors.getRandomColor());
 	
 }
 	
