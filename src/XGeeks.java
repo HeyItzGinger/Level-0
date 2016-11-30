@@ -12,7 +12,7 @@ public class XGeeks {
 
 		// 1. Save the superpower for each person in a variable.
 		String Julia = "Can move things with mind!";
-		String alex = "Hands can heat up, when he touches things they get hot.";
+		String Alex = "Hands can heat up, when he touches things they get hot.";
 		String Olivia = "Can turn down peoples voices.";
 		String Camron = "Can shrink and grow to any size.";
 		String Eli = "Has laser eyes.";
@@ -24,6 +24,17 @@ public class XGeeks {
 		if (Power.equals("Julia")) {
 			JOptionPane.showMessageDialog(null, Julia);
 		}
-		
+		else if (Power.equals("Alex")){
+			JOptionPane.showMessageDialog(null, Alex);
+		}
+		else if (power.equals("Olivia")){
+			JOptionPane.showMessageDialog(null, Olivia);
+		}
+		else if (power.equals("Camron")){
+			JoptionPane.showMessageDialog(null,Camron);
+		}
+		else if (power.equals("Eli")){
+			JOptionPane.showMessageDialog(null, Eli);
+		}
 	}
 }
