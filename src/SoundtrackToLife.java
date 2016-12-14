@@ -20,16 +20,18 @@ public class SoundtrackToLife {
 
 		// 3. If they are in a stressed mood, use the playVideo method to play a calming song from YouTube.
 		if(userMood == 2){
-			JOptionPane.showMessageDialog("You're Stressed. Here's something that may help you..");
+			JOptionPane.showMessageDialog(null,"You're Stressed. Here's something that may help you..");
 	
 		}
 
 		// 4. Play different songs for other moods.
 		else if(userMood == 1){
-			JOptionPane.showMessgaeDialog(null, "You're Happy!");
+			JOptionPane.showMessageDialog(null, "You're Happy!");
 		}
 		else if(userMood == 0){
-			JOptionPane.showMessageDialog(null, "You don't know what to do with yourself!")
+			JOptionPane.showMessageDialog(null, "You don't know what to do with yourself!");
+				
+		}
 
 		// If you are seeing ads at the beginning of your videos, install Adblock.
 

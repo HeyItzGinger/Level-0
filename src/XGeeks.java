@@ -27,13 +27,13 @@ public class XGeeks {
 		else if (Power.equals("Alex")){
 			JOptionPane.showMessageDialog(null, Alex);
 		}
-		else if (power.equals("Olivia")){
+		else if (Power.equals("Olivia")){
 			JOptionPane.showMessageDialog(null, Olivia);
 		}
-		else if (power.equals("Camron")){
-			JoptionPane.showMessageDialog(null,Camron);
+		else if (Power.equals("Camron")){
+			JOptionPane.showMessageDialog(null,Camron);
 		}
-		else if (power.equals("Eli")){
+		else if (Power.equals("Eli")){
 			JOptionPane.showMessageDialog(null, Eli);
 		}
 	}
