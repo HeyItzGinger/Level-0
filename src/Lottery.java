@@ -10,6 +10,6 @@ for(int j = 0; j<5; j++ ){
 	s += random + " ";
 	
 }
-	JOptionPane.showMessageDialog(s);
+	JOptionPane.showMessageDialog(null, s);
 }
 }
